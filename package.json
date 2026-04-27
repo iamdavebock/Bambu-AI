@@ -1,0 +1,16 @@
+{
+  "name": "bambu-monitor",
+  "version": "1.0.0",
+  "description": "MQTT print monitor and Claude Code integration for Bambu Lab printers",
+  "main": "monitor.js",
+  "scripts": {
+    "start": "node monitor.js",
+    "monitor": "node monitor.js"
+  },
+  "dependencies": {
+    "mqtt": "^5.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "keywords": ["bambu", "bambu-lab", "3d-printing", "mqtt", "monitor"],
+  "license": "MIT"
+}

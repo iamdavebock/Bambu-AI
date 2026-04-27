@@ -1,0 +1,17 @@
+# Credentials
+.env
+
+# Logs
+*.log
+
+# Runtime
+result.json
+
+# Session state (internal)
+SESSION.md
+
+# Support drafts (personal)
+bambu-support-message.md
+
+# IDE
+.vscode/
