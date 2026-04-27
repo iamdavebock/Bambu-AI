@@ -1,6 +1,8 @@
-# Bambu Lab P2S — MQTT Monitor & Claude Code Integration
+# Bambu Lab MQTT Monitor & Claude Code Integration
 
 Real-time MQTT print monitor and [Claude Code](https://claude.ai/claude-code) integration for Bambu Lab printers via the local network. No cloud dependency.
+
+**Compatible with:** X1C, X1E, P1S, P1P, P2S, A1, A1 Mini — any Bambu printer with Developer Mode and LAN access.
 
 ## What This Does
 
@@ -11,7 +13,7 @@ Real-time MQTT print monitor and [Claude Code](https://claude.ai/claude-code) in
 ## Architecture
 
 ```
-Bambu P2S Printer (IoT network)
+Bambu Lab Printer (local network)
     |
     |-- MQTT/TLS :8883 --> monitor.js (telemetry + commands)
     |-- FTP/TLS  :990  --> file upload (gcode/3MF)
@@ -109,7 +111,7 @@ npm install && npm run build
 
 ## Troubleshooting
 
-See [troubleshooting.md](troubleshooting.md) for a detailed log of diagnosing a P2S extruder failure using MQTT telemetry. Includes:
+See [troubleshooting.md](troubleshooting.md) for a detailed log of diagnosing an extruder failure on a P2S using MQTT telemetry. The error codes and diagnostic approach apply to all Bambu models. Includes:
 
 - HMS error code reference
 - Systematic elimination of causes

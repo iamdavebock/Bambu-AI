@@ -8,7 +8,7 @@
 **Name:** Bambu Labs Printer Integration
 **Status:** Connected — MQTT telemetry flowing
 
-Monitoring, troubleshooting, and automation for a Bambu Labs 3D printer via local MQTT and MCP server.
+Monitoring, troubleshooting, and automation for Bambu Lab 3D printers via local MQTT and MCP server. Compatible with all models (X1C, X1E, P1S, P1P, P2S, A1, A1 Mini).
 
 ---
 

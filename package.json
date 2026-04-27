@@ -1,7 +1,7 @@
 {
   "name": "bambu-monitor",
   "version": "1.0.0",
-  "description": "MQTT print monitor and Claude Code integration for Bambu Lab printers",
+  "description": "MQTT print monitor and Claude Code integration for Bambu Lab printers (X1C, X1E, P1S, P1P, P2S, A1, A1 Mini)",
   "main": "monitor.js",
   "scripts": {
     "start": "node monitor.js",
