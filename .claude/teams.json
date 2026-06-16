@@ -1,0 +1,37 @@
+{
+  "build": {
+    "lead": "fullstack",
+    "members": ["coder", "frontend", "backend", "mobile", "typescript", "python", "react", "nextjs", "api", "realtime", "desktop", "graphql", "microservices", "go", "rust", "java", "swift", "sql", "legacy-moderniser", "fintech", "blockchain", "gamedev"],
+    "description": "Feature implementation, code delivery, language specialists, and domain engineering"
+  },
+  "quality": {
+    "lead": "reviewer",
+    "members": ["tester", "qa", "debugger", "security", "accessibility", "performance", "compliance", "pentest", "chaos", "error-detective", "arch-reviewer"],
+    "description": "Testing, review, hardening, compliance, and resilience"
+  },
+  "infrastructure": {
+    "lead": "devops",
+    "members": ["cloud", "docker", "terraform", "monitor", "kubernetes", "platform", "sre", "network", "git-workflow", "build-engineer", "dependency-manager", "dx-optimiser"],
+    "description": "Deployment, CI/CD, observability, platform, and developer experience"
+  },
+  "data": {
+    "lead": "data",
+    "members": ["postgres", "analyst", "data-analyst", "ml", "llm", "data-engineer", "data-scientist", "mlops", "nlp", "prompt-engineer", "db-optimiser"],
+    "description": "Data modeling, pipelines, AI features, ML ops, and business intelligence"
+  },
+  "research": {
+    "lead": "planner",
+    "members": ["researcher", "competitive-analyst", "ba", "product-manager", "ux-researcher", "bizops", "project-manager", "scrum-master", "market-researcher", "trend-analyst", "data-researcher", "error-coordinator", "context-manager", "knowledge-synthesiser"],
+    "description": "Discovery, planning, requirements, delivery management, research, and orchestration support"
+  },
+  "content": {
+    "lead": "writer",
+    "members": ["documenter", "seo", "google-ranking", "designer", "copywriter", "customer-success"],
+    "description": "Documentation, content, design, and customer lifecycle"
+  },
+  "growth": {
+    "lead": "offer-architect",
+    "members": ["leadgen", "growth", "copywriter", "sales-closer", "media-buyer", "content-engine", "partnerships", "email-lifecycle", "launch", "brand-strategist", "sales-engineer"],
+    "description": "Offer design, lead generation, conversion optimisation, revenue expansion, and technical sales"
+  }
+}
